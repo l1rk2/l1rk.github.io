@@ -1,0 +1,88 @@
+h1,h3 {
+    padding: 0;
+    margin: 0;
+    text-shadow:5px,10px,10px black;
+    
+}
+
+body{
+    font-family:"Comic sans ms";
+
+    gap: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./images/ss.jpg) ;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 100px;
+}
+ #image1{
+    width: 40em;
+ }  
+
+h3{
+    color: rgb(245, 253, 9);
+  
+    font-size: 50px;
+}
+
+p{
+    text-shadow: 3px 3px 3px black;
+    color: yellow;
+    text-align: center;
+    font-size: 25px; 
+
+}
+img{
+    width: 25em; 
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px black ;
+    display: block;
+
+}
+.images{
+    align-items: center;
+    display:grid ;
+    gap: 3rem;
+    grid-template-columns: repeat(3,1fr);
+    
+    
+}
+.images img {
+    width: 20em; 
+
+}
+.header{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap:1rem   ;
+
+}
+#image6{
+    width: 800px;
+
+}
+.imagesblua{
+    align-items: center;
+    display:grid ;
+    gap: 3rem;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+#blu{
+    width: 300px;
+}
+#bla{
+    width: 300px;
+}
+#p2{
+    color: white;
+}
+#buton{
+    width:200px;
+}
